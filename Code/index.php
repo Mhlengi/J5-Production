@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Page Title</title>
+		<title>Production</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="j_query_mobile_library/jquery.mobile.icons-1.4.5.min.css" />
-		<script src="j_query_mobile_library/jquery.mobile-1.4.5.min.js"></script>
-		<script src="j_query_mobile_library/mobile/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="jquery.mobile.custom.structure.css">
+		<link rel="stylesheet" type="text/css" href="jquery.mobile.custom.structure.min.css">
+		<link rel="stylesheet" type="text/css" href="jquery.mobile.custom.theme.css">
+		<link rel="stylesheet" type="text/css" href="jquery.mobile.custom.theme.min.css">
+
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+		<!--script src="jquery.mobile.custom.js"></script -->
+		<!--script src="jquery.mobile.custom.min.js"></script --->
+
 	</head>
 
 	<body>
@@ -13,17 +21,50 @@
 		<!-- Start of first page -->
 		<div data-role="page" id="foo">
 
-			<div data-role="header">
-				<h1>Foo</h1>
-			</div><!-- /header -->
+			<div data-role="header" style="overflow:hidden; height:60px">
+				<h1>I'm a header</h1>
+
+			</div>
 
 			<div role="main" class="ui-content">
-				<p>
-					I'm first in the source order so I'm shown as the page.
-				</p>
-				<p>
-					View internal page called <a href="#bar">bar</a>
-				</p>
+
+				<div data-role="mhlengiCustomDivL">
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+				</div>
+
+				<div data-role="mhlengiCustomDivC">
+				
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+				</div>
+
+				<div data-role="mhlengiCustomDivR">
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+						I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+				</div>
+
+		
+
+
 			</div><!-- /content -->
 
 			<div data-role="footer">
@@ -40,6 +81,13 @@
 
 			<div role="main" class="ui-content">
 				<p>
+					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
+					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
 					I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.
 				</p>
 				<p>
